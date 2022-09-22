@@ -78,7 +78,7 @@ function App() {
         <div className="searchBox">
           <input type="text"
             className="searchBar"
-            placeholder="Buscar..."
+            placeholder="Busca el tiempo de hoy..."
             onChange={e => setQuery(e.target.value)}
             value={query}
             onKeyPress={search}
